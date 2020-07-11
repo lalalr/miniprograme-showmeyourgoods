@@ -1,2 +1,5 @@
-    <view>index</view>
-    <view>index</view>
+<view class="goods-list">
+  <view class="goods-box">1</view>
+  <view class="goods-box">2</view>
+  <view class="goods-box">3</view>
+</view>
