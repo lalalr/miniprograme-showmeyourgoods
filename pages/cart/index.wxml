@@ -1,5 +1,16 @@
 <view>
-<view class="cart-box">1</view>
+<view class="cart-box">
+        <view class="select_box">
+          <view class="select" catchtap="selectTap">
+            <text class="select_text">abc</text>
+          </view>
+          <view class="select_box" wx:if="{{select}}">
+            <view class="selected" >a</view>
+            <view class="selected" >b</view>
+            <view class="selected" >c</view>
+          </view>
+        </view>
+</view>
 <view class="cart-box">2</view>
 <view class="cart-box">3</view>
 <view class="cart-box">4</view>
