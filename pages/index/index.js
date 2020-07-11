@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    select: false,
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -12,11 +13,6 @@ Page({
 		currentTab:0
   },
   //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
 
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -46,6 +42,7 @@ Page({
       })
     }
   },
+  
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
@@ -55,22 +52,10 @@ Page({
     })
   },
 
-	swichNav: function(e){
-
-		var that =this;
-
-    if( this.data.currentTab === e.target.dataset.current ) {
-      return false;
-    } else {
-      that.setData( {
-        currentTab: e.target.dataset.current
-      })
-    }
-	},
-
-  bindChange: function(e){
-		var that = this;
-		that.setData({ currentTab:e.detail.current})
+  selectTap: function(){
+    this.setData({
+        select:!this.data.select
+    })
   }
 
 

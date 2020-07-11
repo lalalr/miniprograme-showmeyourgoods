@@ -1,1 +1,7 @@
-    <view>Another</view>
+<view>
+<view class="cart-box">1</view>
+<view class="cart-box">2</view>
+<view class="cart-box">3</view>
+<view class="cart-box">4</view>
+</view>
+<view class="convert-button button">转换</view>
