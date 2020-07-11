@@ -1,9 +1,11 @@
 //index.js
 //获取应用实例
+import {data} from '../../utils/data'
 const app = getApp()
 
 Page({
   data: {
+    data:data,
     select: false,
     motto: 'Hello World',
     userInfo: {},
@@ -11,6 +13,9 @@ Page({
 		canIUse: wx.canIUse('button.open-type.getUserInfo'),
 		
 		currentTab:0
+  },
+  tapBox: function(event) {
+    console.log(event)
   },
   //事件处理函数
 

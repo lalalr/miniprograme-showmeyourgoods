@@ -1,8 +1,11 @@
 
 .goods-box{
-  height: 8em;
+  padding: .5em;
+  height: 7em;
   background-color: aqua;
   margin:.5em;
+  flex-direction:row;
+  display: flex;
   overflow:hidden;
 }
 .goods-list{
@@ -26,15 +29,13 @@
 }
 
 .good-image{
-  width: 100px;
-  height: 100px;
+  height: 7em;
+  width: 7em;
   overflow: hidden;
-  margin-left: 10px;
 }
-
 .good-name{
-  margin-top: 10px;
-  width: 100%;
+  margin-left:.5em;
+  width: calc(100% - 7.5em);
   font-size: medium;
   text-overflow: ellipsis;
   white-space: nowrap;

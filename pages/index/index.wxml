@@ -31,6 +31,12 @@
   </scroll-view>
   <scroll-view class="cate-box" scroll-y="true">
     <view class="goods-list">
+    <view class="goods-box" wx:for="{{data}}" wx:key="id" data-id="{{item.id}}"  bindtap="tapBox">
+      <view class="good-image">
+        <image mode="aspectFit" src="{{item.img}}"></image>
+      </view>
+      <view class="good-name"> {{item.name}} </view>
+    </view>
       <view class="goods-box">
         <view class="good-name">男装/女装 轻型腰包 423485423485423485</view>
           <!-- <view class="good-image">
@@ -47,9 +53,6 @@
           </view>
         </view>
       </view>
-      <view class="goods-box">2</view>
-      <view class="goods-box">3</view>
-      <view class="goods-box">4</view>
     </view>
   </scroll-view>
 </view>
