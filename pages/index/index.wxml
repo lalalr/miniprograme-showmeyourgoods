@@ -1,6 +1,6 @@
 <view class="cate-page">
   <scroll-view class="cate-side" scroll-y="true">
-    <view class="cate-item">1</view>
+    <view class="cate-item">3</view>
     <view class="cate-item">2</view>
     <view class="cate-item">3</view>
     <view class="cate-item">4</view>
@@ -31,7 +31,22 @@
   </scroll-view>
   <scroll-view class="cate-box" scroll-y="true">
     <view class="goods-list">
-      <view class="goods-box">1</view>
+      <view class="goods-box">
+        <view class="good-name">男装/女装 轻型腰包 423485423485423485</view>
+          <!-- <view class="good-image">
+          <image src="https://img.alicdn.com/bao/uploaded/i4/196993935/O1CN01LMcb9a1ewH5q7Ujw0-196993935.jpg_80x80.jpg"></image>
+        </view> -->
+        <view class="select_box">
+          <view class="select" catchtap="selectTap">
+            <text class="select_text">abc</text>
+          </view>
+          <view class="select_box" wx:if="{{select}}">
+            <view class="selected" >a</view>
+            <view class="selected" >b</view>
+            <view class="selected" >c</view>
+          </view>
+        </view>
+      </view>
       <view class="goods-box">2</view>
       <view class="goods-box">3</view>
       <view class="goods-box">4</view>
