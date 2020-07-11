@@ -38,20 +38,11 @@
       <view class="good-name"> {{item.name}} </view>
     </view>
       <view class="goods-box">
-        <view class="good-name">男装/女装 轻型腰包 423485423485423485</view>
-          <!-- <view class="good-image">
+        <view class="good-name">{{select}}</view>
+          <view class="good-image">
           <image src="https://img.alicdn.com/bao/uploaded/i4/196993935/O1CN01LMcb9a1ewH5q7Ujw0-196993935.jpg_80x80.jpg"></image>
-        </view> -->
-        <view class="select_box">
-          <view class="select" catchtap="selectTap">
-            <text class="select_text">abc</text>
           </view>
-          <view class="select_box" wx:if="{{select}}">
-            <view class="selected" >a</view>
-            <view class="selected" >b</view>
-            <view class="selected" >c</view>
-          </view>
-        </view>
+
       </view>
     </view>
   </scroll-view>
