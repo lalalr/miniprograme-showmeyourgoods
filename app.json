@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/cart/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -10,6 +11,22 @@
     "navigationBarTextStyle": "black",
     "navigationstyle": "custom"
   },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+     {
+      "text": "首页",
+      "pagePath": "pages/index/index"
+     },
+     {
+      "text": "购物车",
+      "pagePath": "pages/cart/index"
+     }
+    ]
+   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
