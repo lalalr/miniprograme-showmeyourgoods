@@ -1,5 +1,43 @@
-<view class="goods-list">
-  <view class="goods-box">1</view>
-  <view class="goods-box">2</view>
-  <view class="goods-box">3</view>
+<view class="cate-page">
+  <scroll-view class="cate-side" scroll-y="true">
+    <view class="cate-item">1</view>
+    <view class="cate-item">2</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+    <view class="cate-item">3</view>
+    <view class="cate-item">4</view>
+  </scroll-view>
+  <scroll-view class="cate-box" scroll-y="true">
+    <view class="goods-list">
+      <view class="goods-box">1</view>
+      <view class="goods-box">2</view>
+      <view class="goods-box">3</view>
+      <view class="goods-box">4</view>
+    </view>
+  </scroll-view>
 </view>
+
+
+
